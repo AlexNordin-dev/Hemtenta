@@ -8,7 +8,7 @@ body {
 
 .main {
     display: flex;
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 300px); /* För att vissa full skärm. ska minska 200px för header och 100px för footer */
 }
 .boxsize{
     width: 200px;

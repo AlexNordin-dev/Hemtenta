@@ -19,7 +19,7 @@
     
     <script>
         let tal = [ 55, 3, 4, 7, 2, 3, 1, 6, 9, 11, 10, 13, 8, 12, 78];
-        let plockade = tal.filter(x => x  % 2 == 0); /* Plocka alla jämna tal från arrayen. */
+        let plockade = tal.filter(x => x  % 2 == 0); /* Plocka alla jämna tal från arrayen ("tal"). */
         let resultat = plockade.filter(x => x > 4 && x < 14); /* Plocka alla tal som är större än 4 och mindre än 14 från "plockade". */
         document.querySelector("#resultat").textContent = resultat;
     </script>

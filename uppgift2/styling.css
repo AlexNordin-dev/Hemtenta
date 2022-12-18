@@ -2,6 +2,7 @@ body {
     margin: 0px;
     height: 100vh;
     display: flex;
+    flex-direction: column;/* Uppifrån och ner */
 }
 
 header {
